@@ -1,12 +1,15 @@
+/* This universal/global selector will apply to everything */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets background color of entire page */
 body {
     background-color: #d9dcd6;
 }
+
 
 .header {
     padding: 20px;
@@ -20,11 +23,12 @@ body {
     font-size: 48px;
 }
 
+/* change color of "seo" in "Horiseon" */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-/* changed from .header div to nav */
+/* I changed from .header div to nav to be more semantic */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,18 +36,18 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* remove bullet points */
 .header nav ul {
-    list-style-type: none;
-    display: inline-block;
-    margin-left: 25px;
+  list-style-type: none;
 }
 
+/* add spacing between nav bar items and sets to one line */
 .header nav ul li {
-  display: inline-block;
+  display:inline-block;
   margin-left: 25px;
 }
 
+/* style text in the nav bar, no default "link" style if we use text-decoration: none */
 a {
     color: #ffffff;
     text-decoration: none;
@@ -53,6 +57,7 @@ p {
     font-size: 16px;
 }
 
+/* this defines the hero image*/
 .hero {
     height: 800px;
     width: 100%;
