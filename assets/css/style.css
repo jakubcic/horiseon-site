@@ -80,12 +80,20 @@ p {
   margin-left: 25px;
 }
 
+/* 
+set content width to 75% and the display type to inline-block
+so there's room for the aside on the right side of the page
+*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*
+style for the aside containing Lead Generation, Brand Awareness, 
+Cost Management.
+*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
